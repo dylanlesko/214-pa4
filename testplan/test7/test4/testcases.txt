@@ -1,0 +1,52 @@
+Test Cases:
+
+Integer Test Cases
+General Input:
+The comparertor function for inputs, the destroyer function
+
+Input test:
+1,2,3,4
+destroy list
+Expected Output(from main):
+4,3,2,1
+inseted in order
+then remoed from list
+
+Input Test:
+-1,0,1
+destroy list
+Expected Output(from main):
+-1,0,1
+then removed from list
+
+Compare Strings
+General Input:
+The comparertor function for string imputs lexintongraphically, and a destroyer function
+
+Input Test:
+a,b,c
+Expected output(from main):
+c,b,a
+the link list representation (c)->(b)->(a)
+then the list being destroied
+
+Input Test
+aa,a,aaa
+Expected Output
+(aaa)->(aa)->(a)
+
+Compare Doubles:
+General Input:
+The comparetor function for comparing doubles, and a destroyer function
+
+Input Test:
+3.14,3.149,3.14159
+Expected Output:
+(3.149)->(3.14159)->(3.14)->null
+
+Also tried creating comparitor function for files, which compares them by their size
+Input:
+f1(30bytes), f2(80bytes),  f3(10bytes)
+Expected Output:
+(f2)->(f1)->(f3)
+

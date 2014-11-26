@@ -1,0 +1,7 @@
+LOOK
+TEST CASES
+!!!!
+EVERY where
+.align 4
+move eax,ebx
+syscall 0xFF
